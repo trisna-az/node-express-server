@@ -2,11 +2,11 @@ const mongoose = require('mongoose')
 
 const productSchema = mongoose.Schema(
     {
-        nama : {
+        name : {
             type: String,
            
         },
-        telepon : {
+        quantity : {
             type: Number,
         }
     },
